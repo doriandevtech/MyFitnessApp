@@ -10,14 +10,14 @@ const BodyPart = ({ item, setBodypart, bodyPart }) => {
       alignItems="center"
       justifyContent="center"
       className="bodyPart-card"
-      sx={
-        bodyPart === item
-          ? {
-              borderTop: "4px solid #ff2625",
-              backgroundColor: "#fff",
-            }
-          : ""
-      }
+      sx={{
+        borderTop: bodyPart === item ? "4px solid #FF2625" : "",
+        backgroundColor: "#FFF",
+        width: "270px",
+        height: "280px",
+        cursor: "pointer",
+        gap: "47px",
+      }}
     >
       <img
         src={Icon}
