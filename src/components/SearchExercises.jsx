@@ -47,7 +47,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
         mb="50px"
         textAlign="center"
       >
-        Awesome Exercises You <br /> Should Know
+        Awesome Exercises You <br /> Should Know 🧠💡
       </Typography>
       <Box position="relative" mb="72px">
         <TextField
@@ -56,6 +56,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
             width: { lg: "800px", xs: "350px" },
             backgroundColor: "#FFF",
             borderRadius: "40px",
+            mr: "30px",
           }}
           height="76px"
           value={search}
@@ -77,7 +78,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
           }}
           onClick={handleSearch}
         >
-          Search
+          Search 🔎
         </Button>
       </Box>
       <Box sx={{ position: "relative", width: "100%", p: "20px" }}>
