@@ -3,7 +3,7 @@ import { Stack, Typography } from "@mui/material";
 
 import Icon from "../assets/icons/gym.png";
 
-const BodyPart = ({ item, setBodypart, bodyPart }) => {
+const BodyPart = ({ item, setBodyPart, bodyPart }) => {
   return (
     <Stack
       type="button"
@@ -19,7 +19,7 @@ const BodyPart = ({ item, setBodypart, bodyPart }) => {
         gap: "47px",
       }}
       onClick={() => {
-        setBodypart(item);
+        setBodyPart(item);
         window.scrollTo({ top: 1800, left: 100, behavior: "smooth" });
       }}
     >
