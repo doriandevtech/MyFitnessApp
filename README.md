@@ -1,6 +1,6 @@
 # Welcome to 💪 MyFitnessApp 💪 project !
 
-## How can you use this app :
+## How can you use this app ?
 
 Here is the URL link to the app : https://myfitnessapp.netlify.app
 
